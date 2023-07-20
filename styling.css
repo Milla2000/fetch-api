@@ -24,6 +24,30 @@
   width: 100px;
   height: 100px;
 }
+
+.flex-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+select {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  font-size: 70x;
+}
+
+/* option {
+  font-size: 70px;
+} */
+
+/* select:hover {
+  background-color: red;
+} */
+
 .flex {
   display: flex;
   flex-direction: row;

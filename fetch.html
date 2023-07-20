@@ -3,28 +3,40 @@
 
 <head>
     <title>Twitter Clone Assignment</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styling.css">
 
 </head>
 
 <body>
     <div class="box">
-        <div id="profile">
-            <!-- User Profile Information Displayed Here -->
-        </div>
-        <select id="userSelect">
-            <option value="1">Select a user</option>
-
-        </select>
-
-
-        <div class="flex">
-            <div id="posts">
-                <!-- User Posts Will be Displayed Here -->
+        <div class="flex-top">
+            <div id="profile">
+                <!-- User Profile Information Displayed Here -->
             </div>
-        </div>
-        <div class="post-comments">
+            <select id="userSelect">
+                <option value="0">Select a user</option>
 
+            </select>
+
+        </div>
+
+        <div class="gridding">
+            <div class="flex">
+                <div id="posts">
+                    <!-- User Posts Will be Displayed Here -->
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <div id="post-comments" class="post-comments">
+
+
+        </div>
+
+        <div id="mycomment">
+            
         </div>
     </div>
     <script src="fetch.js"></script>
